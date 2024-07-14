@@ -234,8 +234,17 @@ border: none;
 
 /* tablet specific media query */
 
-@media screen and (min-width: 576px) and (max-width: 990px) {
-    .banner{
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .banner,
+    nav, 
+    .skill-container{
         flex-direction: column;
+    }
+    nav{
+        margin: none;
+    }
+    .banner-profile-pic{
+        width: 400px;
+        justify-content: center;
     }
 }
